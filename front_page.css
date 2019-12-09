@@ -1,0 +1,42 @@
+.red_pages {
+    background-color: #C33825;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.red_pages img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.red_pages p{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.logind{
+    border: solid 2px rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem;
+    padding: 0.6rem;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    border-radius: 0.1em; 
+    text-transform: uppercase;
+}
+
+.glemtkode{
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+

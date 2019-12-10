@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Active Search Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="search_active.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans:400,400i,700&display=swap" rel="stylesheet">
+</head>
+<body class="menu_page">
+    <header class="menu menu_header">
+        <h1>Search</h1>
+    </header>
+    <section class="wrapper">
+        <main class="search_page_active">
+            <form>
+                <input type="text" name="search" placeholder="Dukke" class="searchbar">
+            </form>   
+            <button class="font_grey" id="sort_modal__button">Sortér</button>
+            <section class="search_page_active__items">
+                <img src="images/doll1.png" alt="shopping item doll">
+                <img src="images/doll2.png" alt="shopping item doll">
+                <img src="images/doll3.png" alt="shopping item doll">
+                <img src="images/doll4.png" alt="shopping item doll">
+            </section>
+        </main>
+        <section id="sort_modal" class="modal">
+            <section class="sort_modal__content">
+                <span class="sort_modal__close">&times;</span>
+                    <section class="search_age">
+                        <h2 class="font_cursive">Alder</h2>
+                        <img src="images/person.png" alt="person icon">
+                        <p>0-3</p>
+                        <img src="images/person.png" alt="person icon">
+                        <p>3-6</p>
+                        <img src="images/person.png" alt="person icon">
+                        <p>6-10</p>
+                        <img src="images/person.png" alt="person icon">
+                        <p>10-13</p>
+                    </section>
+                    <section class="search_sex">
+                        <h2 class="font_cursive">Køn</h2>
+                        <img src="images/boy.png" alt="boy icon">
+                        <p>Dreng</p>
+                        <img src="images/girl.png" alt="girl icon">
+                        <p>Pige</p>
+                    </section>
+                    <!--<section class="search_categories">
+                        <h2 class="font_cursive">Top Kategorier</h2>
+                        <img src="images/categories.png" alt="test category image">
+                        <img src="images/categories.png" alt="test category image">
+                    </section>-->
+            </section>
+        </section>
+    </section>
+    <footer class="menu menu_footer">
+        <img src="images/home.png" alt="home icon" class="menu_icon">
+        <img src="images/search.png" alt="search icon" class="menu_icon">
+        <img src="images/qr_code.png" alt="QR scanner icon" class="menu_icon">
+        <img src="images/bag.png" alt="shopping bag icon" class="menu_icon">
+        <img src="images/profile.png" alt="user profile icon" class="menu_icon">
+    </footer>
+    <script>
+
+        /* MODAL BOX inspireret af: https://www.w3schools.com/howto/howto_css_modals.asp*/
+
+        // Get the sign up modal
+        var modal = document.getElementById("sort_modal");
+
+        // Sign up button that opens the modal
+        var btn = document.getElementById("sort_modal__button");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("sort_modal__close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+
+    </script>
+</body>
+</html>

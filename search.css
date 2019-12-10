@@ -28,8 +28,11 @@
 .font_grey {
     color: #4A4A4A;
     font-size: 70%;
-    text-align: center;
     padding-top: 3vh;
+}
+
+.search_page .font_grey {
+    text-align: center;
 }
 
 .font_cursive {

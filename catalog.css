@@ -1,0 +1,42 @@
+.catalog {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.wrapper_2{
+    overflow-y: scroll;
+    width: 100vw;
+    padding: 5vw;
+    background-color: #C33825;
+    background-image: url('images/christmas.jpg');
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vh;
+}
+
+.smartsearch input{/* Inspireret af: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_search_anim */
+    width: 14rem;
+        box-sizing: border-box;
+        border: 2px solid rgb(255, 255, 255);
+        font-size: 1rem;
+        background-color: rgba(195, 55, 37, 0.288);
+        background-image: url('images/search2.png');
+        background-position: 15px 8px; 
+        background-repeat: no-repeat;
+        padding: 10px 10px 12px 50px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        justify-content: center;
+}
+.bar {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.smartsearch ::placeholder{
+    color: rgb(255, 255, 255);
+        font-style: italic;
+}

@@ -1,0 +1,114 @@
+/* SEARCH BAR */
+
+/* Inspireret af: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_search_anim */
+
+.searchbar {        
+    width: 15rem;
+    box-sizing: border-box;
+    border: 1px solid #4A4A4A;
+    border-radius: 0px;
+    font-size: 1em;
+    background-color: #ffffff;
+    background-image: url('images/search.png');
+    background-position: 1vh 2vh; 
+    background-size: 5vh;
+    background-repeat: no-repeat;
+    padding: 16px 20px 16px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    justify-content: center;
+}
+
+.searchbar:focus {
+    width: 100%;
+}
+
+/* SEARCH PAGE */
+
+.font_grey {
+    color: #4A4A4A;
+    font-size: 70%;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.font_cursive {
+    font-style: italic;
+}
+
+.search_age {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    grid-gap: 3vh;
+    padding-top: 5vh;
+}
+
+.search_age h2 {
+    grid-row: 1;
+    grid-column: 1/5;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 2vh;
+    font-style: italic;
+}
+
+.search_age img {
+    grid-row: 2;
+    align-self: center;
+}
+
+.search_age p {
+    text-align: center;
+    align-self: flex-start;
+}
+
+.search_sex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+}
+
+.search_sex h2 {
+    grid-row: 1;
+    grid-column: 1/3;
+    text-align: center;
+    align-self: center;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.search_sex img {
+    grid-row: 2;
+    width: 15vh;
+    justify-self: center;
+    align-self: center;
+}
+
+.search_sex p {
+    grid-row: 3;
+    text-align: center;
+    align-self: center;
+}
+
+.search_categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.search_categories h2 {
+    grid-row: 1;
+    grid-column: 1/3;
+    text-align: center;
+    align-self: center;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.search_categories img {
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    width: 23vh;
+}

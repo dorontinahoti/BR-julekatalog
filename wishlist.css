@@ -1,0 +1,22 @@
+.wishlist_wrapper {
+    height: 100vh;
+}
+
+.wishlist_section{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 3em;
+}
+
+.wishlist_section h2 {
+    font-size: 3em;
+    text-align: center;
+    border: solid black 2px;
+    margin: 0.3em;
+}
+
+.wishlist_section img {
+    height: 10vh;
+    justify-self: center;
+    margin-top: 2em;
+}

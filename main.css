@@ -111,3 +111,6 @@ img {
     grid-column: 2/3;
     grid-row: 2;
 }
+
+/* front_page*/
+@import "front_page.css"

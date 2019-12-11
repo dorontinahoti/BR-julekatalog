@@ -1,0 +1,91 @@
+/* GENERAL STYLES */ 
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: #C33825;
+    margin-top: 1vh;
+}
+
+h2, h3, p, em {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.font_white {
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* MENU BARS */
+
+.wrapper /* Sættes på section inden for body, skal ikke inkludere header + footer */ {
+    overflow-y: scroll;
+    width: 100vw;
+    padding: 5vw;
+    background-image: url(images/tree.jpg);
+    background-position: center center;
+    height: 100vh;
+}
+
+.menu_page /* Sættes på body */ {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-end;*/
+    height: 100vh;
+}
+
+.menu /* Sættes på menuen */ {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-content: center;
+    padding: 2vh;
+}
+
+.menu_header {
+    border-bottom: 1px solid #4A4A4A;
+    justify-self: flex-start;
+    height: 10vh;
+}
+
+.menu_footer {
+    border-top: 1px solid #4A4A4A;
+    justify-self: flex-end;
+}
+
+.menu_icon {
+    width: 5vh;
+}
+
+/* JULEKALENDER */ 
+
+/* Tilpasset til iPhone 5 - 8 PLUS */
+
+@media screen and (max-width: 414px) {
+
+    .calendar {
+        text-align: center;
+        margin-top: 2rem;
+    } 
+    
+    .laege {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-height: 740px) {
+
+    .laege {
+        margin-top: 5rem;
+    }
+} 

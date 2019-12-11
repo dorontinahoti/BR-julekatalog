@@ -18,7 +18,7 @@
 }
 
 .smartsearch input{/* Inspireret af: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_search_anim */
-    width: 14rem;
+        width: 14rem;
         box-sizing: border-box;
         border: 2px solid rgb(255, 255, 255);
         font-size: 1rem;
@@ -27,16 +27,69 @@
         background-position: 15px 8px; 
         background-repeat: no-repeat;
         padding: 10px 10px 12px 50px;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
         justify-content: center;
+        margin-bottom: 0.5em;
 }
 .bar {
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
+}
+
+.bar a{
+    text-decoration: none;
+    color: white;
 }
 .smartsearch ::placeholder{
     color: rgb(255, 255, 255);
         font-style: italic;
+}
+
+@media (min-width: 375px){
+    .smartsearch input{
+        width: 17rem;
+    }
+
+    .bar a{
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 414px){
+    .smartsearch input{
+        width: 19rem;
+    }
+}
+
+@media (min-width: 768px){
+    .products{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .products a{
+        justify-self: center;
+    }
+
+    .smartsearch input{
+        width: 39rem;
+    }
+
+    .bar a{
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 1024px){
+    .products{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    } 
+
+    .smartsearch input{
+        width: 53em;
+        padding-bottom: 1em;
+    }
+
+    .catalog h1{
+        font-size: 4em;
+    }
 }

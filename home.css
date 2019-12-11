@@ -38,6 +38,7 @@
     grid-row: 1;
     text-align: center;
     margin: 3vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.336);
 }
 
 .home_categories img:nth-of-type(1) {
@@ -48,4 +49,25 @@
 .home_categories img:nth-of-type(2) {
     grid-column: 2/3;
     grid-row: 2;
+}
+
+/*mediaqueri*/
+@media (min-width:768px){
+
+    .home_categories a img{
+        margin-left: 2em;
+    }
+     h1{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 3em;
+    }
+}
+
+@media (min-width:1024px){
+    .home_categories a img{
+        margin-left: 6em;
+        margin-top: 2em;
+    }
 }

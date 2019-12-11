@@ -1,15 +1,15 @@
-.red_pages {
+.red_pages2 {
     background-color: #C33825;
     font-family: 'Open Sans', sans-serif;
 }
 
-.red_pages img{
+.red_pages2 img{
     width: 10%;
     margin-left: 0.6em;
     margin-top: 0.6em;
 }
 
-.red_pages h1{
+.red_pages2 h1{
     color: white;
     text-align: center;
     font-size: 2.7rem;
@@ -30,8 +30,8 @@ background-color:#C33825 ;
 font-family: 'Open Sans', sans-serif;
 font-size: 1.2rem;
 border: 2px solid white;
-width: 90%;
-margin-right: 1rem;
+width: 75%;
+margin-left: 1em;
 box-sizing: border-box;
 height: 32px;
 margin-bottom: 2rem;
@@ -56,4 +56,58 @@ border-radius: 0.1em;
 
 .fill ::placeholder{
 color: white;
+}
+
+@media (min-width: 375px){
+    .fill{
+        margin-top: 12.3em;
+    }
+    .fill input{
+        margin-left:2.2em;
+        width: 66%;
+    }
+
+    .fill a{
+       margin-left: 6em;
+       margin-right: 6em;
+
+    }
+}
+
+@media (min-width: 768px){
+
+    .red_pages2 img{
+        width: 6%;
+    }
+    .red_pages2 h1{
+        margin-top: 5.5em;
+    }
+
+    .fill input{
+        margin-left:11em;
+        width: 39%;
+    }
+
+    .fill a{
+        margin-left: 16em;
+        margin-right: 15em;
+ 
+     }
+}
+
+@media (min-width: 1024px){
+    .red_pages2 h1{
+        margin-top: 9.6em;
+    }
+
+    .fill input{
+        margin-left:17.3em;
+        width: 30%;
+    }
+
+    .fill a{
+        margin-left: 22em;
+        margin-right: 22em;
+ 
+     }
 }

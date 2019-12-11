@@ -1,3 +1,9 @@
+.info a img{
+    width: 10%;
+    margin-left: 0.6em;
+    margin-top: 0.6em;
+}
+
 .info img {
     width: 100%;
 }
@@ -14,11 +20,12 @@
     margin-top: 1.5em;
 }
 
-.info p:nth-child(4){
+.info p:nth-child(5){
     font-size: 2em;
 }
-.info p:nth-child(5){
+.info p:nth-child(6){
     color: rgb(41, 187, 22);
+    fo
 }
 
 .add{
@@ -39,7 +46,7 @@
 }
 
 .prod{
-    border: black solid 1px;
+    border: rgba(0, 0, 0, 0.596) solid 1px;
     text-align: center;
 }
 
@@ -50,3 +57,30 @@
 .prod h3{
     color: black;
 }
+
+@media (min-width: 768px){
+    .info h3{
+        font-size: 4em;
+    }
+
+    .prod p{
+        font-size: 1.5em;
+    }
+
+    .prod h3{
+        font-size: 2em;
+    }
+
+    .info p:nth-child(4){
+        font-size: 2em;
+    }
+
+    .info p:nth-child(5){
+        font-size: 4em;
+    }
+
+    .info p:nth-child(6){
+        font-size: 2em;
+    }
+}
+

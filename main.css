@@ -88,5 +88,14 @@ img {
 /* Kurv Page*/
 @import "kurv.css";
 
+/* Julekalneder Page*/
+@import "julekalender.css";
+
+/* Search_active Page*/
+@import "search_active.css";
+
+/* search Page*/
+@import "search.css";
+
 
 

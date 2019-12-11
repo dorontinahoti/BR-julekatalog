@@ -79,6 +79,14 @@ img {
 /* Catalog Page*/
 @import "catalog.css";
 
+/* Profil Page*/
+@import "profil.css";
+
+/* Pointsystem Page*/
+@import "pointsystem.css";
+
+/* Kurv Page*/
+@import "kurv.css";
 
 
 

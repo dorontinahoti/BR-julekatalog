@@ -6,12 +6,11 @@
     width: 15rem;
     box-sizing: border-box;
     border: 1px solid #4A4A4A;
-    border-radius: 0px;
     font-size: 1em;
     background-color: #ffffff;
     background-image: url('images/search.png');
-    background-position: 1vh 2vh; 
-    background-size: 5vh;
+    background-position: 1vh 0.8em; 
+    background-size: 1.5em;
     background-repeat: no-repeat;
     padding: 16px 20px 16px 40px;
     -webkit-transition: width 0.4s ease-in-out;
@@ -114,4 +113,55 @@
     align-self: center;
     justify-self: center;
     width: 23vh;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 700px) {
+
+    .title {
+        font-size: 3em;
+    }
+
+    .searchbar {
+        width: 25rem;
+        padding: 26px 30px 26px 50px;
+        background-size: 2.3em;
+        background-position: 1.5vh 1em; 
+    }
+
+    .search_page .font_grey {
+        font-size: 2em;
+        padding-top: 5vh;
+    }
+    
+    .search_age h2, .search_sex h2, .search_categories h2 {
+        font-size: 3em;
+    }
+
+    .search_categories h2 {
+        padding-bottom: 3vh;
+        margin-top: 3vh;
+    }
+
+    .search_age p, .search_sex p {
+        font-size: 2em;
+    } 
+
+    .search_sex img, .search_categories img {
+        width: 25vw;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    .title {
+        font-size: 4em;
+    }
+
+    .searchbar {
+        width: 40rem;
+        background-position: 1vh 1em; 
+    }
 }

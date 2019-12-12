@@ -1,0 +1,30 @@
+.kategori{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vh;
+}
+
+.wrapper_2{
+    overflow-y: scroll;
+    width: 100vw;
+    padding: 5vw;
+    
+}
+@media (min-width: 768px){
+     h1{
+        font-size: 4em;
+    }
+    .products{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .products img{
+        justify-self: center;
+    }
+}

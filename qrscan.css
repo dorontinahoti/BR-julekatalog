@@ -1,0 +1,109 @@
+/* GENERAL STYLES */ 
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: #4C4C4C;
+    font-size: 1.5rem;
+    margin-top: 1vh;
+}
+
+h2, h3, p, em {
+    font-family: 'Open Sans', sans-serif;
+    color: #4C4C4C;
+}
+
+.font_white {
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* MENU BARS */
+
+.wrapper /* Sættes på section inden for body, skal ikke inkludere header + footer */ {
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu_page /* Sættes på body */ {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-end;*/
+    height: 100vh;
+}
+
+.menu /* Sættes på menuen */ {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-content: center;
+    padding: 2vh;
+}
+
+.menu_header {
+    border-bottom: 1px solid #4A4A4A;
+    justify-self: flex-start;
+    height: 10vh;
+    background-color: #ffffff;
+}
+
+.menu_footer {
+    border-top: 1px solid #4A4A4A;
+    justify-self: flex-end;
+    background-color: #ffffff;
+}
+
+.menu_icon {
+    width: 5vh;
+}
+
+.qrscan {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+@media screen and (min-height: 800px) {
+
+    h1 {
+        
+        font-size: 2rem;   
+    }
+
+    .qrscan {
+        margin-top: 4.2rem;
+    }
+}
+
+@media screen and (min-height: 1000px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .qrscan {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 92vh;   
+    }
+}
+
+@media screen and (min-height: 1100px) {
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .qrscan {
+        height: 94vh;   
+    }
+}

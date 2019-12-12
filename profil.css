@@ -23,3 +23,29 @@
 .profil_menu h2:nth-of-type(6){
     margin-top: 1rem;
 }
+
+@media screen and (min-width: 750px) {
+
+.profil_menu h2 {
+    font-size: 2.2em;
+    margin-top: 0vh;
+}
+    
+.menu_header h1 {
+    font-size: 3em;
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+.menu_header h1 {
+    font-size: 4em;
+    margin-top: 0vh;
+}
+
+.profil_menu h2 {
+    font-size: 3em;
+}
+
+}

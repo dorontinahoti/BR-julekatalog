@@ -70,62 +70,57 @@ img {
 
 /* Tilpasset til iPhone 5 - 8 PLUS */
 
-@media screen and (max-width: 414px) {
+.calendar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr;
+    justify-items: center;
+}
 
-    .calendar {
-        text-align: center;
-        margin-top: 2rem;
+.calendar_text {
+    text-align: center;
+    align-self: center;
+}
+
+.laege {
+    margin-top: 15%;
+}
+
+/* LÅGE SKIFT inspireret af http://jsfiddle.net/8yytW/43/ */
+
+#img-switcher{
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    position: absolute;
+}
+
+#img-switcher + label {
+    background-image: url(/images/19.jpg);
+    width: 60vw;
+    height: 60vw;
+    display: block;
+    background-size: cover;
+}
+
+#img-switcher:checked + label {
+    background-image: url(/images/500x500.jpg);
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 700px) {
+
+    .calendar_text {
+        font-size: 3em;
+    }
+    
+    .calendar_title {
+        font-size: 4em;
     } 
     
     .laege {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 10%;
     }
 }
 
-@media screen and (min-height: 740px) {
-
-    .laege {
-        margin-top: 5rem;
-    }
-} 
-
-@media screen and (min-height: 1000px) {
-
-    .calendar {
-        text-align: center;
-        margin-top: 2rem;
-        font-size: 3rem;
-    } 
-
-    .laege {
-        margin-top: 5rem;
-        margin-left: 6rem;
-    }
-
-    h1 {
-        font-family: 'Luckiest Guy', cursive;
-        font-size: 3rem;
-        margin-top: 1vh;
-    }
-} 
-
-@media screen and (min-height: 1100px) {
-
-    .calendar {
-        text-align: center;
-        margin-top: 2rem;
-        font-size: 3rem;
-    } 
-
-    .laege {
-        margin-top: 5rem;
-        margin-left: 13.5rem;
-    }
-
-    h1 {
-        font-family: 'Luckiest Guy', cursive;
-        font-size: 4rem;
-        margin-top: 1vh;
-    }
-} 

@@ -46,3 +46,53 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+/* MEDIA QUERY */
+
+@media (min-width: 500px) {
+
+    .searchbar {        
+        width: 25rem;
+        background-position: 1vh 0.8em; 
+        background-size: 1.5em;
+    }
+
+    #sort_modal__button {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 700px) {
+
+    .title {
+        font-size: 3em;
+    }
+
+    .searchbar {  
+        width: 28rem;     
+        background-position: 1vh 1.2em; 
+        background-size: 2em;
+    }
+
+    .modal {
+        height: 90vh;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .title {
+        font-size: 4em;
+    }
+
+    .searchbar {  
+        width: 40rem;     
+        background-position: 1vh 1.2em; 
+        background-size: 2em;
+        padding: 26px 30px 26px 50px;
+    }
+
+    #sort_modal__button {
+        font-size: 2.5em;
+    }
+}

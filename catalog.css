@@ -51,8 +51,8 @@ form ::placeholder{
 
 
 @media (min-width: 375px){
-    .searchbar input{
-        width: 17rem;
+    .searchbar {
+        width: 21rem;
     }
 
     .bar a{
@@ -61,8 +61,8 @@ form ::placeholder{
 }
 
 @media (min-width: 414px){
-    .smartsearch input{
-        width: 19rem;
+    .searchbar{
+        width: 22.2rem;
     }
 }
 
@@ -75,8 +75,8 @@ form ::placeholder{
         justify-self: center;
     }
 
-    .smartsearch input{
-        width: 39rem;
+    .searchbar {
+        width: 41.5rem;
     }
 
     .bar a{
@@ -89,8 +89,8 @@ form ::placeholder{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     } 
 
-    .smartsearch input{
-        width: 53em;
+    .searchbar {
+        width: 56em;
         padding-bottom: 1em;
     }
 

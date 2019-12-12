@@ -2,35 +2,52 @@
     height: 100vh;
 }
 
+.points_info h2:nth-child(1){
+    font-size: 1.6em; 
+    color: #C33825;
+}
+.points_info h2:nth-child(2){
+    border-bottom: 1px solid black;
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
 .points_info{
     text-align: center;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 }
 
-.points_system{ 
+.system{ 
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
+}
 
+p{
+    font-size: 1.2em;
+}
+.point p{
+    text-align: left;
+    padding: 0.3em;
+}
+
+.vaerdi p{
+    text-align: center;
+    padding: 0.3em;
 }
     
-.points_system ul{
-    list-style-type: none;
-    font-family: 'Open Sans', sans-serif;
-    color: #C33825;
-    text-align: center;
-}
 
-@media screen and (min-width: 750px) {
+
+@media screen and (min-width: 768px) {
 
 .menu_header h1 {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
-.points_info h2 {
+.points_info h2:nth-child(2){
     font-size: 2em;
 }
 
-.points_system ul {
+p{
     font-size: 2em;
 }
 

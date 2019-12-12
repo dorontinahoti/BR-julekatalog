@@ -20,28 +20,33 @@
 }
 
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 375px) {
 
-.profil_menu h2 {
-    font-size: 2.2em;
-    margin-top: 0vh;
-}
-    
-.menu_header h1 {
-    font-size: 3em;
+.menu_header h1{
+    font-size: 2em;
 }
 
-}
-
-@media screen and (min-width: 1000px) {
-
-.menu_header h1 {
-    font-size: 4em;
-    margin-top: 0vh;
-}
-
-.profil_menu h2 {
-    font-size: 3em;
+.profil_wrapper{
+    margin-top: 3em;
 }
 
 }
+
+@media screen and (min-width: 768px) {
+
+    .profil_wrapper a{
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .profil_wrapper{
+        margin-top: 8em;
+    }
+
+    .profil_wrapper a{
+        font-size: 2em;
+    }
+}
+

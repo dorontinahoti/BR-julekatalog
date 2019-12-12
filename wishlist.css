@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .wishlist_wrapper {
     height: 100vh;
 }
@@ -16,6 +19,7 @@
     margin: 0.3em;
     color: #C33825;
     font-style: italic;
+    font-family: 'Caveat', cursive;
 }
 
 .wishlist_section img {
@@ -24,6 +28,12 @@
     margin-top: 3em;
 }
 
+
+@media screen and (min-width: 375px) {
+    .wishlist_section{
+        margin-top: 3em;
+    }
+}
 @media screen and (min-width: 750px) {
 
 .menu_header h1{

@@ -113,6 +113,18 @@
 
 /* MEDIA QUERY */
 
+@media (min-width: 375px){
+    .searchbar {
+        width: 21rem;
+    }
+}
+
+@media (min-width: 414px){
+    .searchbar {
+        width: 23rem;
+    }
+}
+
 @media (min-width: 700px) {
 
     .title {
@@ -120,7 +132,7 @@
     }
 
     .searchbar {
-        width: 25rem;
+        width: 27rem;
         padding: 26px 30px 26px 50px;
         background-size: 2.3em;
         background-position: 1.5vh 1em; 
@@ -150,6 +162,12 @@
 
 }
 
+@media (min-width: 768px){
+    .searchbar {
+        width: 43rem;
+    }
+}
+
 @media (min-width: 900px) {
 
     .title {
@@ -157,7 +175,7 @@
     }
 
     .searchbar {
-        width: 40rem;
+        width: 58rem;
         background-position: 1vh 1em; 
     }
 }

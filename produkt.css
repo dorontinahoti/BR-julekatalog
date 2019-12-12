@@ -9,7 +9,7 @@
 }
 
 .info h3{
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -45,31 +45,12 @@
     justify-self: center;
 }
 
-.prod{
-    border: rgba(0, 0, 0, 0.596) solid 1px;
-    text-align: center;
-}
-
-.prod p{
-    color: black;
-}
-
-.prod h3{
-    color: black;
-}
 
 @media (min-width: 768px){
     .info h3{
         font-size: 4em;
     }
 
-    .prod p{
-        font-size: 1.5em;
-    }
-
-    .prod h3{
-        font-size: 2em;
-    }
 
     .info p:nth-child(4){
         font-size: 2em;

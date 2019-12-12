@@ -97,5 +97,14 @@ img {
 /* search Page*/
 @import "search.css";
 
+/* julekalender Page*/
+@import "julekalender.css";
+
+/* search Page*/
+@import "kategori.css";
+
+/* search Page*/
+@import "produkt.css";
+
 
 

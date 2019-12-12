@@ -1,0 +1,33 @@
+/* LIST EXAMPLE PAGE */
+
+.back_button {
+    width: 2em;
+}
+
+.list_header h1 {
+    justify-self: center;
+}
+
+.list_example_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vh;
+    padding-top: 2vh;
+}
+    
+.list_example_items img {
+    justify-self: center;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 700px) {
+
+    .list_header h1 {
+        font-size: 3em;
+    }
+
+    .back_button {
+        width: 4em;
+    }
+}

@@ -5,20 +5,23 @@
 .wishlist_section{
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .wishlist_section h2 {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
-    border: solid black 2px;
+    border: solid #4c4c4c 1px;
+    padding: 0.5em;
     margin: 0.3em;
+    color: #C33825;
+    font-style: italic;
 }
 
 .wishlist_section img {
-    height: 10vh;
+    height: 6vh;
     justify-self: center;
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 @media screen and (min-width: 750px) {
@@ -31,7 +34,7 @@
 .wishlist_section h2 {
     margin-left: 2em;
     margin-right: 2em;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 }

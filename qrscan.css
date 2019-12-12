@@ -7,10 +7,10 @@
 }
 
 h1 {
-    font-family: 'Luckiest Guy', cursive;
     color: #4C4C4C;
     font-size: 1.5rem;
     margin-top: 1vh;
+    font-family: 'Raleway', sans-serif;
 }
 
 h2, h3, p, em {

@@ -3,9 +3,9 @@
 /* Inspireret af: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_search_anim */
 
 .searchbar {        
-    width: 15rem;
+    width: 18rem;
     box-sizing: border-box;
-    border: 1px solid #4A4A4A;
+    border: 2px solid #4c4c4cc5;
     font-size: 1em;
     background-color: #ffffff;
     background-image: url('images/search.png');
@@ -13,20 +13,16 @@
     background-size: 1.5em;
     background-repeat: no-repeat;
     padding: 16px 20px 16px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
     justify-content: center;
 }
 
-.searchbar:focus {
-    width: 100%;
-}
+
 
 /* SEARCH PAGE */
 
 .font_grey {
     color: #4A4A4A;
-    font-size: 70%;
+    font-size: 100%;
     padding-top: 3vh;
 }
 
@@ -112,7 +108,7 @@
     grid-row: 2;
     align-self: center;
     justify-self: center;
-    width: 23vh;
+    width: 15vh;
 }
 
 /* MEDIA QUERY */

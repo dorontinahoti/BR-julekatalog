@@ -3,26 +3,22 @@
 }
 
 .profil_menu {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto ;
     text-align: center;
-    justify-content: center;
-    font-size: 2em;
+    margin-top: 2em;
 }
 
-.profil_menu h2:nth-of-type(1){
-    margin-top: 3rem;
+.profil_menu h2{
+    color: #C33825;
 }
 
-.profil_menu h2:nth-of-type(3){
-    margin-top: 1rem;
+.profil_menu a{
+    padding: 1rem;
+    text-decoration: none;
+    
 }
 
-.profil_menu h2:nth-of-type(5){
-    margin-top: 1rem;
-}
-
-.profil_menu h2:nth-of-type(6){
-    margin-top: 1rem;
-}
 
 @media screen and (min-width: 750px) {
 

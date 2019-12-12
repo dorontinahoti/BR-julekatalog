@@ -17,36 +17,41 @@
     grid-gap: 2vh;
 }
 
-.smartsearch input{/* Inspireret af: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_search_anim */
-        width: 14rem;
-        box-sizing: border-box;
-        border: 2px solid rgb(255, 255, 255);
-        font-size: 1rem;
-        background-color: rgba(195, 55, 37, 0.288);
-        background-image: url('images/search2.png');
-        background-position: 15px 8px; 
-        background-repeat: no-repeat;
-        padding: 10px 10px 12px 50px;
-        justify-content: center;
-        margin-bottom: 0.5em;
-}
-.bar {
-    margin-top: 3rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
+.searchbar {        
+    width: 18rem;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 1em;
+    background-color: #9e121283;
+    background-image: url('images/search2.png');
+    background-position: 1vh 0.8em; 
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    padding: 16px 20px 16px 40px;
+    justify-content: center;
 }
 
+form input{
+    color: white;
+}
+
+form ::placeholder{
+    color: white;
+}
+
+.bar{
+    margin:1em;
+}
 .bar a{
     text-decoration: none;
     color: white;
-}
-.smartsearch ::placeholder{
-    color: rgb(255, 255, 255);
-        font-style: italic;
+    font-size: 1.2em;
+
 }
 
+
 @media (min-width: 375px){
-    .smartsearch input{
+    .searchbar input{
         width: 17rem;
     }
 

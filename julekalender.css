@@ -49,7 +49,7 @@
 }
 
 #img-switcher + label {
-    background-image: url(/images/19v4.png);
+    background-image: url(images/19v4.png);
     width: 65vw;
     height: 65vw;
     display: block;
@@ -57,7 +57,7 @@
 }
 
 #img-switcher:checked + label {
-    background-image: url(/images/points.png);
+    background-image: url(images/points.png);
 }
 
 /* MEDIA QUERY */

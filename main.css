@@ -101,11 +101,23 @@ img {
 /* julekalender Page*/
 @import "julekalender.css";
 
-/* search Page*/
+/* kategori Page*/
 @import "kategori.css";
 
 /* search Page*/
 @import "produkt.css";
+
+/* list_example Page*/
+@import "list_example.css";
+
+/* loading Page*/
+@import "loading.css";
+
+/* qrscan Page*/
+@import "qrscan.css";
+
+/* wishlist Page*/
+@import "wishlist_page.css";
 
 
 

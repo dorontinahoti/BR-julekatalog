@@ -63,11 +63,18 @@
     h2{
         font-size: 3em;
     }
+
+    .home_links{
+        margin: 3em;
+    }
 }
 
 @media (min-width:1024px){
     .home_categories a img{
         margin-left: 6em;
         margin-top: 2em;
+    }
+    .home_links{
+        margin: 5em;
     }
 }

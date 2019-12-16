@@ -18,7 +18,7 @@ body {
     height: 100vh;
 }
 
-.br img {
+.br a{
     justify-self: center;
     max-width: 100%;
     animation: rotation 2s infinite linear;

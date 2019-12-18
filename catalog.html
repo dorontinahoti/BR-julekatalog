@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="catalog.css">  
     <title>Ønskebogen</title>
 
 </head>
@@ -22,7 +22,7 @@
            
         </form>
         <section class="bar">
-             <a href="search.html">Sorter</a>
+            <button class="font_white" id="sort_modal__button">Sortér</button>
          </section>
         <section class="products">
             <a href="produkt.html"><img src="images/pr1.png" alt="legetøj"></a>
@@ -39,6 +39,28 @@
             <a href=""><img src="images/pr12.png" alt="legetøj"></a>
         </section>
     </section>
+    <section id="sort_modal" class="modal">
+        <section class="sort_modal__content">
+            <span class="sort_modal__close">&times;</span>
+                <section class="search_age">
+                    <h2 class="font_cursive">Alder</h2>
+                    <img src="images/0-3.png" alt="person icon">
+                    <p>0-3</p>
+                    <img src="images/4-6.png" alt="person icon">
+                    <p>3-6</p>
+                    <img src="images/7-10.png" alt="person icon">
+                    <p>6-10</p>
+                    <img src="images/11.png" alt="person icon">
+                    <p>10-13</p>
+                </section>
+                <section class="search_sex">
+                    <h2 class="font_cursive">Køn</h2>
+                    <img src="images/boy.png" alt="boy icon">
+                    <p>Dreng</p>
+                    <img src="images/girl.png" alt="girl icon">
+                    <p>Pige</p>
+                </section>
+        </section>
     <footer class="menu menu_footer">
         <a href="index.html"><img src="images/home2.png" alt="home icon" class="menu_icon"></a>
         <a href="search_active.html"><img src="images/search3.png" alt="search icon" class="menu_icon"></a>
@@ -46,5 +68,29 @@
         <a href="kurv.html"><img src="images/bag2.png" alt="shopping bag icon" class="menu_icon"></a>
         <a href="profil.html"><img src="images/profile2.png" alt="user profile icon" class="menu_icon"></a>
     </footer>
+    <script>
+
+        /* MODAL BOX inspireret af: https://www.w3schools.com/howto/howto_css_modals.asp*/
+
+        // Get the sign up modal
+        var modal = document.getElementById("sort_modal");
+
+        // Sign up button that opens the modal
+        var btn = document.getElementById("sort_modal__button");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("sort_modal__close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+
+    </script>
 </body>
 </html>

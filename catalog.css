@@ -40,15 +40,106 @@ form ::placeholder{
 }
 
 .bar{
-    margin:1em;
-}
-.bar a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.2em;
-
+    margin: 1em;
+    margin-left: 0;
 }
 
+ /* MODAL BOX inspireret af: https://www.w3schools.com/howto/howto_css_modals.asp*/
+
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.sort_modal__content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+}
+
+.sort_modal__close {
+    color: #818181;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sort_modal__button {
+    font-size: 1em;
+    text-align: left;
+}
+
+.font_cursive {
+    font-style: italic;
+}
+
+.search_age {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    grid-gap: 3vh;
+    padding-top: 5vh;
+}
+
+.search_age h2 {
+    grid-row: 1;
+    grid-column: 1/5;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 2vh;
+    font-style: italic;
+}
+
+.search_age img {
+    grid-row: 2;
+    align-self: center;
+}
+
+.search_age p {
+    text-align: center;
+    align-self: flex-start;
+}
+
+.search_sex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+}
+
+.search_sex h2 {
+    grid-row: 1;
+    grid-column: 1/3;
+    text-align: center;
+    align-self: center;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.search_sex img {
+    grid-row: 2;
+    width: 15vh;
+    justify-self: center;
+    align-self: center;
+}
+
+.search_sex p {
+    grid-row: 3;
+    text-align: center;
+    align-self: center;
+}
+
+/* MEDIA QUERY */
 
 @media (min-width: 375px){
     .searchbar {
@@ -57,6 +148,10 @@ form ::placeholder{
 
     .bar a{
         font-size: 1.3em;
+    }
+
+    #sort_modal__button {
+        font-size: 1.5em;
     }
 }
 
@@ -80,6 +175,10 @@ form ::placeholder{
     }
 
     .bar a{
+        font-size: 2em;
+    }
+
+    #sort_modal__button {
         font-size: 2em;
     }
 }

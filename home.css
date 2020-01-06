@@ -7,7 +7,8 @@
 }
 
 .home_links img {
-    height: 20vh;
+    height: 25vh;
+    width: 100vw;
 }
 
 .home_links a:nth-of-type(1) {
@@ -23,10 +24,6 @@
 .home_links a:nth-of-type(3) {
     grid-column: 2/3; 
     grid-row: 2; 
-}
-
-.home_links img{
-    width: 100vw;
 }
 
 .home_categories {
@@ -52,12 +49,13 @@
 }
 
 /*mediaqueri*/
+
 @media (min-width:768px){
 
     .home_categories a img{
         margin-left: 2em;
     }
-     h1{
+    h1{
         font-size: 4em;
     }
     h2{
@@ -70,11 +68,23 @@
 }
 
 @media (min-width:1024px){
+
     .home_categories a img{
         margin-left: 6em;
         margin-top: 2em;
     }
+
     .home_links{
         margin: 5em;
+    }
+
+    .home_links img {
+        height: 28vh;
+    }
+}
+
+@media (max-width:767px){
+    .home_links img {
+        height: 25vh;
     }
 }

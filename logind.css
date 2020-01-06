@@ -3,6 +3,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.red_pages2 main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .red_pages2 img{
     width: 10%;
     margin-left: 0.6em;
@@ -12,15 +17,16 @@
 .red_pages2 h1{
     color: white;
     text-align: center;
-    font-size: 2.7rem;
-    margin-top: 1.2em;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.158);
+}
+
+.fill{
+    display: grid;
 }
 
 .fill form {
     display: block;
-    margin-top: 9em;
-    margin-left: 2rem;
+    text-align: center;
 }
 
 .fill input{
@@ -29,21 +35,12 @@ background-color:#C33825 ;
 font-family: 'Open Sans', sans-serif;
 font-size: 1.2rem;
 border: 2px solid white;
-width: 75%;
-margin-left: 1em;
-box-sizing: border-box;
 height: 32px;
-margin-bottom: 2rem;
 padding: 1.4em;
-border-radius: 0.1em;
 }
 
 .fill a {
     border: solid 2px rgb(255, 255, 255);
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 5rem;
-    margin-top: 0.3rem;
     padding: 0.5rem;
     text-align: center;
     font-size: 1.2rem;
@@ -56,7 +53,7 @@ border-radius: 0.1em;
 .fill ::placeholder{
 color: white;
 }
-
+/*
 @media (min-width: 375px){
     .fill{
         margin-top: 12.3em;
@@ -110,3 +107,4 @@ color: white;
  
      }
 }
+*/

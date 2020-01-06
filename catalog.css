@@ -11,6 +11,13 @@
     background-image: url('images/christmas.jpg');
 }
 
+.icon a img{
+    width: 10%;
+    margin-left: 0.6em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+
 .products{
     display: grid;
     grid-template-columns: 1fr 1fr;

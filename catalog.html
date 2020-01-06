@@ -12,34 +12,44 @@
 </head>
 <body class="menu_page catalog">
     <header class="menu menu_header">
-         <h1>ØNSKEBOGEN</h1>
-    </header>
-
-    <section class="wrapper wrapper_2">
-        
-        <form>
-            <input type="text" name="search" placeholder="Søg efter produkt.." class="searchbar">
-           
-        </form>
-        <section class="bar">
-            <button class="font_white" id="sort_modal__button">Sortér</button>
-         </section>
-        <section class="products">
-            <a href="produkt.html"><img src="images/pr1.png" alt="legetøj"></a>
-            <a href=""><img src="images/pr2.png" alt="legetøj"></a>
-            <a href=""><img src="images/pr3.png" alt="legetøj"></a>
-            <a href=""><img src="images/pr4.png" alt="legetøj"></a>
-            <a href=""><img src="images/pr5.png" alt="legetøj"></a>
-            <a href=""><img src="images/pr6.png" alt="legetøj"></a>
-            <a href=""><img src="images/pr7.png" alt="legetøj"></a>
-            <a href=""><img src="images/pr8.png" alt="legetøj"></a>
-            <a href=""><img src="images/pr9.png" alt="legetøj"></a>
-            <a href=""><img src="images/pr10.png" alt="legetøj"></a>
-            <a href=""><img src="images/pr11.png" alt="legetøj"></a>
-            <a href=""><img src="images/pr12.png" alt="legetøj"></a>
+        <h1>ØNSKEBOGEN</h1>
+   </header>
+   
+   <section class="wrapper wrapper_2">
+       <section class="icon">
+            <a href="index.html"><img src="images/left_arrow.png" alt="red left arrow"></a>
         </section>
+    <form>
+        <input type="text" name="search" placeholder="Søg efter produkt.." class="searchbar">
+       
+    </form>
+    <section class="bar">
+        <button class="font_white" id="sort_modal__button">Sortér</button>
+     </section>
+    <section class="products">
+        <a href="produkt.html"><img src="images/pr1.png" alt="legetøj"></a>
+        <a href=""><img src="images/pr2.png" alt="legetøj"></a>
+        <a href=""><img src="images/pr3.png" alt="legetøj"></a>
+        <a href=""><img src="images/pr4.png" alt="legetøj"></a>
+        <a href=""><img src="images/pr5.png" alt="legetøj"></a>
+        <a href=""><img src="images/pr6.png" alt="legetøj"></a>
+        <a href=""><img src="images/pr7.png" alt="legetøj"></a>
+        <a href=""><img src="images/pr8.png" alt="legetøj"></a>
+        <a href=""><img src="images/pr9.png" alt="legetøj"></a>
+        <a href=""><img src="images/pr10.png" alt="legetøj"></a>
+        <a href=""><img src="images/pr11.png" alt="legetøj"></a>
+        <a href=""><img src="images/pr12.png" alt="legetøj"></a>
     </section>
-    <!--MODAL BOX inspireret af: https://www.w3schools.com/howto/howto_css_modals.asp-->
+</section>
+<footer class="menu menu_footer">
+    <a href="index.html"><img src="images/home.png" alt="home icon" class="menu_icon"></a>
+    <a href="search_active.html"><img src="images/search3.png" alt="search icon" class="menu_icon"></a>
+    <a href="qrscan.html"><img src="images/qr_code2.png" alt="QR scanner icon" class="menu_icon"></a>
+    <a href="kurv.html"><img src="images/bag2.png" alt="shopping bag icon" class="menu_icon"></a>
+    <a href="profil.html"><img src="images/profile2.png" alt="user profile icon" class="menu_icon"></a>
+</footer>
+
+ <!--MODAL BOX inspireret af: https://www.w3schools.com/howto/howto_css_modals.asp-->
     <section id="sort_modal" class="modal">
         <section class="sort_modal__content">
             <span class="sort_modal__close">&times;</span>
@@ -62,36 +72,29 @@
                     <p>Pige</p>
                 </section>
         </section>
-    <footer class="menu menu_footer">
-        <a href="index.html"><img src="images/home2.png" alt="home icon" class="menu_icon"></a>
-        <a href="search_active.html"><img src="images/search3.png" alt="search icon" class="menu_icon"></a>
-        <a href="qrscan.html"><img src="images/qr_code2.png" alt="QR scanner icon" class="menu_icon"></a>
-        <a href="kurv.html"><img src="images/bag2.png" alt="shopping bag icon" class="menu_icon"></a>
-        <a href="profil.html"><img src="images/profile2.png" alt="user profile icon" class="menu_icon"></a>
-    </footer>
-    <script>
+        <script>
 
-        /* MODAL BOX inspireret af: https://www.w3schools.com/howto/howto_css_modals.asp*/
-
-        // Get the sign up modal
-        var modal = document.getElementById("sort_modal");
-
-        // Sign up button that opens the modal
-        var btn = document.getElementById("sort_modal__button");
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("sort_modal__close")[0];
-
-        // When the user clicks the button, open the modal 
-        btn.onclick = function() {
-        modal.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-        modal.style.display = "none";
-        }
-
-    </script>
+            /* MODAL BOX inspireret af: https://www.w3schools.com/howto/howto_css_modals.asp*/
+    
+            // Get the sign up modal
+            var modal = document.getElementById("sort_modal");
+    
+            // Sign up button that opens the modal
+            var btn = document.getElementById("sort_modal__button");
+    
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("sort_modal__close")[0];
+    
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+            modal.style.display = "block";
+            }
+    
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+    
+        </script>
 </body>
 </html>

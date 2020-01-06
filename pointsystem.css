@@ -1,3 +1,9 @@
+.icon a img{
+    width: 10%;
+    margin-left: 0.6em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
 .points_wrapper{
     height: 100vh;
 }

@@ -18,9 +18,7 @@
     
 }
 @media (min-width: 768px){
-     h1{
-        font-size: 4em;
-    }
+
     .products{
         grid-template-columns: 1fr 1fr 1fr;
     }

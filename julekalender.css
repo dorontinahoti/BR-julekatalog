@@ -34,7 +34,6 @@
 
 
 .laege {
-
     align-items: center;
 }
 
@@ -76,12 +75,6 @@
         font-size: 4.5em;
         margin-bottom: 0.1em;
     }
-    
-    .calendar_title {
-        font-size: 4em;
-
-    } 
-    
 
     #img-switcher + label {
         width: 45vw;

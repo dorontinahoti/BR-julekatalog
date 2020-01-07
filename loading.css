@@ -1,12 +1,18 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+/* BODY OF LOADING PAGE */ 
 
 body {
     background-color: #C33825;
 }
+
+.loading_wrapper {
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 50vh 50vh;
+    grid-gap: 5vh;
+}
+
+/* BR ROTATING LOGO */
 
 .br {
     display: grid;
@@ -15,7 +21,7 @@ body {
     width: 90%;
     margin: 0 auto;
     justify-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 .br a{
@@ -32,4 +38,45 @@ body {
     to {
       transform: rotate(359deg);
     }
+}
+
+/* LOADING/PROGRESS BAR inspireret af https://codepen.io/evawythien/pen/jegRxN */ 
+
+.progress_bar_container {
+    margin: 0 auto;
+    width: 60vw;
+    height: 20vh;
+    text-align: center;
+    align-self: top;
+}
+
+.progress {
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress_bar {	
+    height: 18px;
+      background-color: #ee303c;  
+    border-radius: 4px; 
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+
+.progress_striped .progress_bar { 	
+    background-color: rgb(252, 217, 65); 
+    width: 100%; 
+    background-image: linear-gradient(
+          45deg, rgb(252,163,17) 25%, 
+          transparent 25%, transparent 50%, 
+          rgb(252,163,17) 50%, rgb(252,163,17) 75%,
+          transparent 75%, transparent); 
+    animation: progressAnimation 6s;
+}
+
+@keyframes progressAnimation {
+    from { width: 0 }
+    to   { width: 100% }
 }

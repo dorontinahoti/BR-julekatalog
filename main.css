@@ -33,6 +33,10 @@ img {
     font-size: 0;
 }
 
+.title_no_margin {
+    margin: 0;
+}
+
 /* MENU BARS */
 
 .wrapper /* Sættes på section inden for body, skal ikke inkludere header + footer */ {

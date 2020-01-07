@@ -64,10 +64,6 @@
 
 @media (min-width: 414px) {
 
-    .title {
-        font-size: 3em;
-    }
-
     .searchbar {  
         width: 23rem;     
         background-position: 1vh 0.8em; 
@@ -80,10 +76,6 @@
 }
 
 @media (min-width: 768px) {
-
-    .title {
-        font-size: 4em;
-    }
 
     .searchbar {  
         width: 43rem;     

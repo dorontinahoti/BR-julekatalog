@@ -6,11 +6,13 @@
     margin: 0;
 }
 
-h1 {
+h1, .title {
     font-family: 'Raleway', sans-serif;
     color: #4c4c4c;
     margin-top: 1vh;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    align-self: center;
 }
 
 h2, h3, p, em {
@@ -24,6 +26,15 @@ h2, h3, p, em {
 
 img {
     max-width: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+    font-size: 0;
+}
+
+.title_no_margin {
+    margin: 0;
 }
 
 /* MENU BARS */
@@ -64,6 +75,23 @@ img {
 .menu_icon {
     width: 5vh;
 }
+
+/* MEDIA QUERY */
+
+@media (min-width: 700px) {
+
+    .title {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .title {
+        font-size: 4em;
+    }
+}
+
 
 /* Front Page*/
 @import "front_page.css";

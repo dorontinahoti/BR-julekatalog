@@ -7,7 +7,8 @@ a{
 
 .wishlist_section{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 85% 15%;
+    align-items: center;
     margin-top: 2em;
 }
 
@@ -23,9 +24,18 @@ a{
 }
 
 .wishlist_section img {
-    height: 6vh;
+    height: 5vh;
     justify-self: center;
     margin-top: 3em;
+}
+
+.add {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;  
+    height: 3em;
+    width: 3em;
+    
 }
 
 

@@ -39,7 +39,7 @@
 color: rgb(255, 255, 255);
 background-color:#C33825 ;
 font-family: 'Open Sans', sans-serif;
-font-size: 1.2rem;
+font-size: 4vw;
 border: 2px solid white;
 height: 32px;
 padding: 1.4em;
@@ -49,12 +49,12 @@ padding: 1.4em;
     border: solid 2px rgb(255, 255, 255);
     padding: 0.5rem;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 4vw;
     text-decoration: none;
     color: rgb(255, 255, 255);
     border-radius: 0.1em;
-    margin-right: 15vw;
-    margin-left: 15vw;
+    margin-right: 28vw;
+    margin-left: 28vw;
 }
 
 .fill ::placeholder{

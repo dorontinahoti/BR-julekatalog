@@ -17,6 +17,12 @@
     grid-gap: 2vh;
     padding-top: 2vh;
 }
+
+.list_example_items input{
+    height: 2em;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
     
 .list_example_items img {
     justify-self: center;

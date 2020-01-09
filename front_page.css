@@ -10,7 +10,7 @@
 }
 
 .red_pages img{
-    margin-top: 2rem;
+    margin-top: 4em;
 }
 
 .red_pages p{
@@ -36,4 +36,33 @@
     color: rgb(255, 255, 255);
     text-align: center;
     font-style: italic;
+}
+
+@media screen and (min-height:667px){
+    .red_pages img{
+        margin-top: 6em;
+    }
+}
+
+@media screen and (min-height:812px){
+    .red_pages img{
+        margin-top: 10em;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .red_pages img{
+        margin-left: 6em;
+        margin-top: 24em;
+    }
+   
+}
+
+@media screen and (min-width:768px){
+    .logind{
+        margin-left: 28vw;
+        margin-right: 28vw;
+        padding: 0.5em;
+    }
+   
 }
